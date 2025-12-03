@@ -436,9 +436,6 @@ footer li {
         width: 140px;
         height: 140px;
     }
-    .sticky-top {
-        overflow: hidden;
-    }
 
 }
 
@@ -464,8 +461,6 @@ footer li {
     .timeline li .timeline-panel::after {
         top : 31px;
     }
-     .sticky-top {
-        overflow: hidden;
-    }
 
 }
+
