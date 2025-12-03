@@ -464,4 +464,8 @@ footer li {
     .timeline li .timeline-panel::after {
         top : 31px;
     }
+     .sticky-top {
+        overflow: hidden;
+    }
+
 }
