@@ -400,11 +400,11 @@
       const offCanvas = document.querySelector('.offcanvas')
 
       offCanvas.addEventListener('show.bs.offcanvas', function(){
-        document.body.style.overflow = 'visible'
+        stickyTop.style.overflow = 'visible'
       });
 
       offCanvas.addEventListener('hidden.bs.offcanvas', function(){
-        document.body.style.overflow = 'hidden'
+        stickyTop.style.overflow = 'hidden'
       });     
     </script> 
 
@@ -486,5 +486,6 @@
   </body>
 
 </html>
+
 
 
