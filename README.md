@@ -10,7 +10,7 @@
 
 ## 3rd Party Element :
 - simply Countdown
-- discuss
+- disqus
 - google sheet(excel spreadsheet)
 
-## Click this [link]() to open the invitation
+## Click this [link](https://belindamartina.github.io/online-wedding-invitation/) to open the invitation
