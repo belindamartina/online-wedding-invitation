@@ -9,6 +9,8 @@
 - Bootstrap v5.3 CSS
 
 ## 3rd Party Element :
--disqus
+- simply Countdown
+- discuss
+- google sheet(excel spreadsheet)
 
 ## Click this [link]() to open the invitation
