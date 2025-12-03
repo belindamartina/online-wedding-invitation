@@ -6,7 +6,7 @@
 - Javascript
 
 ## Framework used :
-- Bootstrap CSS
+- Bootstrap v5.3 CSS
 
 ## 3rd Party Element :
 -disqus
