@@ -11,7 +11,7 @@ body {
     font-size: 1.2rem;
     font-family: "Work Sans", sans-serif;
     min-height: 4000px;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .hero::before {
@@ -63,6 +63,8 @@ body {
 }
 
 .mynavbar {
+ width: 100vw;
+ left: 0;
  background-color: rgba(255, 255, 255, 0.3)!important;
  backdrop-filter: blur(4px);
 }
@@ -465,5 +467,6 @@ footer li {
     }
 
 }
+
 
 
