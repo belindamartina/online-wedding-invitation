@@ -3,13 +3,15 @@
     --bg: #0a0a0a;
     --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
-
+* {
+    border-sizing: border-box;
+}
 
 body {
     font-size: 1.2rem;
     font-family: "Work Sans", sans-serif;
     min-height: 4000px;
-    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .hero::before {
@@ -463,4 +465,5 @@ footer li {
     }
 
 }
+
 
