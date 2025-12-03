@@ -33,7 +33,7 @@
         </main>
     </section>
 
-<nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar navbar-dark">
+<nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
   <div class="container">
     <a class="navbar-brand" href="#">JJ</a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -400,11 +400,11 @@
       const offCanvas = document.querySelector('.offcanvas')
 
       offCanvas.addEventListener('show.bs.offcanvas', function(){
-        document.body.style.overflow = 'hidden'
+        document.body.style.overflow = 'visible'
       });
 
       offCanvas.addEventListener('hidden.bs.offcanvas', function(){
-        document.body.style.overflow = 'auto'
+        document.body.style.overflow = 'hidden'
       });     
     </script> 
 
@@ -486,4 +486,5 @@
   </body>
 
 </html>
+
 
